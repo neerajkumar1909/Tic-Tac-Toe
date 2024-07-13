@@ -22,6 +22,7 @@ function checkWinner() {
     // Match Draw
     if (!arr.some(el => el === null)) {
         alert(`DRAW!!`)
+        window.location.reload();
     }
 }
 
